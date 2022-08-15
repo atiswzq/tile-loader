@@ -14,7 +14,7 @@ public interface LngLatTrans {
      * 
      * @param lngLat
      * @param zoom
-     * @param tile1
+     * @param tile
      */
     void trans(LngLat lngLat, int zoom, Tile tile);
 }
